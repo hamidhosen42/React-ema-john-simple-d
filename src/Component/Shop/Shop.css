@@ -10,14 +10,21 @@
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 45px;
 }
-@media screen and (max-width:1000px){
-  .products-container{
-    grid-template-columns: repeat(2,1fr);
+.cart-container {
+  background-color: #d7a861;
+  padding-left: 30px;
+}
+@media screen and (max-width: 1000px) {
+  .products-container {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media screen and (max-width:900px){
-  .products-container{
-    grid-template-columns: repeat(1,1fr);
+@media screen and (max-width: 900px) {
+  .products-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .cart-container {
+    width: 250px;
   }
 }
